@@ -7,10 +7,10 @@ El proyecto, ya operativo, consiste en un rotor controlado mediante un ESP8266, 
 escuchando nuestra TinyGS.
 Por ahora estoy utilizando un motor paso a paso de una vieja impresora, posteriormente lo cambiare por un motor paso a paso con desmultiplicador
 100:1.
-Solo voy a mover el azimout de la antena, quedando para mas adelante la elevación de la misma.
+Solo voy a mover el azimut de la antena, quedando para mas adelante la elevación de la misma.
 Para implementarlo, he modificado el programa de la GS, para que envie via GET el nombre del satélite que esta escuchando al ESP8266 encargado de mover el rotor.
 En el ESP8266, he utilizado la libreria https://github.com/Hopperpop/Sgp4-Library para obtener los datos referentes al satelite escuchado.
-Los TLE´s de cada satelite, los actualizo cada hora desde Celetrak: http://www.celestrak.com/satcat/tle.php?CATNR=46494 (norbi en este caso)
+Los TLE´s de cada satelite, los actualizo cada hora desde Celestrak: http://www.celestrak.com/satcat/tle.php?CATNR=46494 (Norbi en este caso)
 Imagen del sistema en funcionamiento:
 ![image](https://user-images.githubusercontent.com/48222471/117567192-4486f400-b0bb-11eb-8b01-1b8cee6842a2.png)
 imagen de la página Web que sirve el ESP8266:
