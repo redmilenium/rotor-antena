@@ -12,7 +12,7 @@ Por ahora estoy utilizando un motor paso a paso de una vieja impresora, posterio
 
 Solo voy a mover el azimut de la antena, quedando para mas adelante la elevación de la misma.  
 
-Para implementarlo, he modificado el programa de la GS, para que envie via GET el nombre del satélite que esta escuchando al ESP8266 encargado de mover el rotor.  
+Para implementarlo, he modificado el programa de la GS, para que envie via GET (El ESP8266 tiene la IP 192.168.1.24 -> http://192.168.1.24/sat?sat=Norbi)  el nombre del satélite que esta escuchando al ESP8266 encargado de mover el rotor.  
 
 Una vez conocido el satelite a seguir por el ESP8266, he utilizado la libreria https://github.com/Hopperpop/Sgp4-Library para obtener los datos de posición referentes al satelite escuchado.  
 
