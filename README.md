@@ -7,6 +7,10 @@ Ver tinygs.com.
 El proyecto, ya operativo, consiste en un rotor controlado mediante un ESP8266, cuya misión es seguir al satelite que en esos momentos este
 escuchando nuestra TinyGS  
 
+# TINYGS HOMEMADE
+![image](https://user-images.githubusercontent.com/48222471/117586079-2bf7f780-b116-11eb-84cd-9ce9a3a5349e.png)
+
+# ESPECIFICACIONES ROTOR
 Por ahora estoy utilizando un motor paso a paso de una vieja impresora, posteriormente lo cambiare por un motor paso a paso con desmultiplicador
 100:1.  
 
