@@ -29,3 +29,11 @@ Los TLE´s de cada satelite, los actualizo automaticamente cada hora desde Celes
 # Vista de la página web servida desde el ESP8266
 ![image](https://user-images.githubusercontent.com/48222471/117567409-8bc1b480-b0bc-11eb-89ca-9d89e79c7466.png)
 
+
+Desde aquí puedes seleccionar que el rotor siga automaticamente al satelite que este seleccionado en la TinyGS.
+
+
+El programa esta configurado para que el seguimiento se haga cuando el satelite este a menos de 3000 Km., por encima de esa distancia es muy complicado que lleguemos a recibir algo...
+
+También podemos ponerlo en manual, y mover el rotor a la posición que nos interese.
+
