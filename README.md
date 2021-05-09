@@ -34,6 +34,7 @@ Desde aquí puedes seleccionar que el rotor siga automaticamente al satelite que
 
 
 El programa esta configurado para que el seguimiento se haga cuando el satelite este a menos de 3000 Km., por encima de esa distancia es muy complicado que lleguemos a recibir algo...
+Una vez que el satelite este dentro de este margen de 3000 Km. el ESP8266 calcula el azimut del mismo con respecto a nuestra posición y comenzara a orientar la antena. La posición se actualiza cada segundo. Es muy importante que durante la instalación, orientemos perfectamente los 0 grados del rotor con el Norte.
 
 También podemos ponerlo en manual, y mover el rotor a la posición que nos interese.
 
