@@ -14,7 +14,7 @@ Solo voy a mover el azimut de la antena, quedando para mas adelante la elevació
 
 Para implementarlo, he modificado el programa de la GS, para que envie via GET el nombre del satélite que esta escuchando al ESP8266 encargado de mover el rotor.  
 
-Una vez conocido el satelite a seguir por el ESP8266, he utilizado la libreria https://github.com/Hopperpop/Sgp4-Library para obtener los datos referentes al satelite escuchado.  
+Una vez conocido el satelite a seguir por el ESP8266, he utilizado la libreria https://github.com/Hopperpop/Sgp4-Library para obtener los datos de posición referentes al satelite escuchado.  
 
 Los TLE´s de cada satelite, los actualizo cada hora desde Celestrak: http://www.celestrak.com/satcat/tle.php?CATNR=46494 (por ejemplo, Norbi en este caso)  
 
