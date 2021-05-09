@@ -38,3 +38,5 @@ Una vez que el satelite este dentro de este margen de 3000 Km. el ESP8266 calcul
 
 También podemos ponerlo en manual, y mover el rotor a la posición que nos interese.
 
+Continuará...en breve subiré tanto la modificación a incorporar al soft de TINYGS como el el programa gestor del rotor y su esquema.
+
