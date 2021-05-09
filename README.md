@@ -19,8 +19,8 @@ Una vez conocido el satelite a seguir por el ESP8266, he utilizado la libreria h
 Los TLE´s de cada satelite, los actualizo automaticamente cada hora desde Celestrak: http://www.celestrak.com/satcat/tle.php?CATNR=46494 (por ejemplo, Norbi en este caso)  
 
 # Vista del sistema 
-![image](https://user-images.githubusercontent.com/48222471/117567192-4486f400-b0bb-11eb-8b01-1b8cee6842a2.png)
-
+![image](https://user-images.githubusercontent.com/48222471/117582400-255f8500-b102-11eb-92a3-65a39cbca0f6.png)
+![image](https://user-images.githubusercontent.com/48222471/117582414-34dece00-b102-11eb-8a1d-5b62fcdbd1a9.png)
  
 # Vista de la página web servida desde el ESP8266
 ![image](https://user-images.githubusercontent.com/48222471/117567409-8bc1b480-b0bc-11eb-89ca-9d89e79c7466.png)
