@@ -38,10 +38,15 @@ Una vez que el satelite este dentro de este margen de 3000 Km. el ESP8266 calcul
 
 También podemos ponerlo en manual, y mover el rotor a la posición que nos interese.
 
-# Modificación a incluir en el soft de TINYGS ( https://github.com/G4lile0/tinyGS )
+# Modificación a incluir en el soft de TINYGS  https://github.com/G4lile0/tinyGS 
 
-[añadidotinygs.txt](https://github.com/redmilenium/rotor-antena/files/6453740/anadidotinygs.txt)
+
+[añadidotinygs.txt](https://github.com/redmilenium/rotor-antena/files/6453774/anadidotinygs.txt)
+
+
 ![WhatsApp Image 2021-05-10 at 18 43 47](https://user-images.githubusercontent.com/48222471/117696097-3cb17780-b1c1-11eb-85ab-6df2d70eb15b.jpeg)
+
+
 ![WhatsApp Image 2021-05-10 at 18 13 41](https://user-images.githubusercontent.com/48222471/117696161-49ce6680-b1c1-11eb-9590-b813c937532a.jpeg)
 
 
