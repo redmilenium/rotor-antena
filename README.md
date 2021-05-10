@@ -43,12 +43,9 @@ También podemos ponerlo en manual, y mover el rotor a la posición que nos inte
 
 [añadidotinygs.txt](https://github.com/redmilenium/rotor-antena/files/6453774/anadidotinygs.txt)
 
+![image](https://user-images.githubusercontent.com/48222471/117697320-9f574300-b1c2-11eb-9f0f-eeb7b1928cb5.png)
 
-![WhatsApp Image 2021-05-10 at 18 43 47](https://user-images.githubusercontent.com/48222471/117696097-3cb17780-b1c1-11eb-85ab-6df2d70eb15b.jpeg)
-
-
-![WhatsApp Image 2021-05-10 at 18 13 41](https://user-images.githubusercontent.com/48222471/117696161-49ce6680-b1c1-11eb-9590-b813c937532a.jpeg)
-
+![image](https://user-images.githubusercontent.com/48222471/117697616-f3fabe00-b1c2-11eb-801f-5e43a9c3276c.png)
 
 Continuará...en breve subiré el programa gestor del rotor y su esquema.
 
