@@ -45,6 +45,8 @@ También podemos ponerlo en manual, y mover el rotor a la posición que nos inte
 
 ![image](https://user-images.githubusercontent.com/48222471/117697320-9f574300-b1c2-11eb-9f0f-eeb7b1928cb5.png)
 
+Se envia el nombre del satelite escuchado una vez por minuto.
+
 ![image](https://user-images.githubusercontent.com/48222471/117697616-f3fabe00-b1c2-11eb-801f-5e43a9c3276c.png)
 
 Continuará...en breve subiré el programa gestor del rotor y su esquema.
