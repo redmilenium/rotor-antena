@@ -159,6 +159,8 @@ Y aunque el sistema lo tengo instalado en un tejado, no tengo visión de 360 gra
   Yo solo he llegado a recibir datos de los 3 primeros y conociendo el número NORAD es muy facil incluir cualquier otro: http://www.celestrak.com/satcat/tle.php?CATNR=46494
   Este, por ejemplo, nos permite conseguir los TLE's actualizado de Norbi
 - Dado que despues de su instalación en un tejado, por ejemplo, no tendras facil acceso al ESP8266, tambien esta activa la posibilidad de enviar via OTA nuevas versiones del software. Para ello deberás editar el archivo platformio.ini, comentar la linea de COMX y descomentar las referentes a OTA:
+
+
   ![image](https://user-images.githubusercontent.com/48222471/117863090-ae59f600-b293-11eb-95e9-90c4ce90b0e6.png)
 
   
