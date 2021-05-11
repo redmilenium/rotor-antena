@@ -8,6 +8,7 @@ El proyecto, ya operativo, consiste en un rotor controlado mediante un ESP8266, 
 escuchando nuestra TinyGS.
 He procurado "tocar" lo menos posible el soft de la TinyGS para no interferir en su trabajo y que el sistema encargado de rotar sea un ESP8266 que se encargue del trabajo de calcular el azimut y del movimiento del rotor.
 
+
 # TINYGS HOMEMADE
 ![image](https://user-images.githubusercontent.com/48222471/117852716-e9eec300-b287-11eb-8d8b-245ba6786273.png)
 
@@ -22,6 +23,9 @@ Para implementarlo, he modificado el programa de la GS, para que envie via GET (
 Una vez conocido el satelite a seguir por el ESP8266, he utilizado la libreria https://github.com/Hopperpop/Sgp4-Library para obtener los datos de posición referentes al satelite escuchado.  
 
 Los TLE´s de cada satelite, los actualizo automaticamente cada hora desde Celestrak: http://www.celestrak.com/satcat/tle.php?CATNR=46494 (por ejemplo, Norbi en este caso)  
+
+![image](https://user-images.githubusercontent.com/48222471/117855623-f1fc3200-b28a-11eb-84a6-347b1d3e238a.png)
+
 
 # Vista del sistema 
 ![image](https://user-images.githubusercontent.com/48222471/117701870-0b887580-b1c8-11eb-90a5-3a4babf89063.png)
