@@ -77,8 +77,10 @@ pinMode(D2, INPUT);       //DETECTOR
   Dado que el controlador de motor paso a paso lo tengo configurado a 1600 pasos por vuelta, obtengo una relación de 4.44 pulsos por gradp. 
   Estoy a la espera de recibir un nema17 con un gearbox con una relación 100:1:
   ![image](https://user-images.githubusercontent.com/48222471/117849127-464fe380-b284-11eb-8574-328bca941831.png)
+  
   Es decir por cada 100 vueltas del motor paso a paso, el rotor dará solo 1. 
-  En este caso configuraré el controlador de motor p.p. a 200 pulsos por vuelta. Esto son 20.000 pulsos de motor pap por vuelta de rotor: 55.55 pulsos por grado.
+  En este caso configuraré el controlador de motor p.p. a 200 pulsos por vuelta. 
+  Esto son 20.000 pulsos de motor pap por vuelta de rotor: 55.55 pulsos por grado.
 -
 
 
