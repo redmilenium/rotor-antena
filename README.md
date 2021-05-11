@@ -68,7 +68,7 @@ pinMode(D2, INPUT);       //DETECTOR
 [rotor.zip](https://github.com/redmilenium/rotor-antena/files/6460477/rotor.zip)
 
 # Material necesario
-- Una TinyGS. Puedes hacerlo tu mismo o puedes adquirirla en cualquier proveedor oriental...
+- Una TinyGS. Puedes hacerlo tu mismo o puedes adquirirla hecha.
   Aunque deberían ser mejor las basadas en el chip SX1268, yo por ahora sigo utilizando la primera TinyGS que construí con un SX1278.
   La razón, es que tienen mejor sensibilidad, aun en contra de lo que indica el fabricante de los chips: SEMTECH.
   Quizas esten en lo cierto y el problema resida en la circuiteria adicional necesaria para unir el chip con la antena. Y esto ya depende de cada fabricante.
@@ -96,7 +96,8 @@ pinMode(D2, INPUT);       //DETECTOR
 Recomiendo disponer de platformio para la carga del programa en el ESP8266. 
 Para instalarlo puedes utilizar cualquiera de los tutoriales existentes en Youtube y que lo hacen francamente bien.
 Estoy modificandolo un poco, ya que yo lo tengo integrado en el control domotico de mi casa y presenta ciertas particularidades.
-Estoy seguro de que quedan bugs por solucionar, pero presenta un comportamiento bastante bueno y a las pruebas me remito:
+Estoy seguro de que quedan bugs por solucionar, pero presenta un comportamiento bastante bueno.
+Y aunque el sistema esta instalado en un tejado, no tengo 360 grados sin obstaculos y aun asi y en la parte "mala" obtengo buenos resultados:
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 - 14:03:47 success!
 - 14:03:47 [SX12x8] Starting to listen to Norbi
