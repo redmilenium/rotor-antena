@@ -53,6 +53,15 @@ Se envia el nombre del satelite escuchado una vez por minuto.
 
 
 # Esquema
+
+pinMode(D5, OUTPUT);       //DIRECCION GIRO 
+
+pinMode(D6, OUTPUT);       //PULSO PARA DAR UN PASO
+
+pinMode(D7, OUTPUT);       //ENABLE
+
+pinMode(D2, INPUT);       //DETECTOR
+
 ![image](https://user-images.githubusercontent.com/48222471/117826333-5eb60300-b270-11eb-928d-8bab5ac784fd.png)
 
 
