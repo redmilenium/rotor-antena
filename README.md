@@ -74,7 +74,7 @@ pinMode(D2, INPUT);       //DETECTOR
   Quizas esten en lo cierto y el problema resida en la circuiteria adicional necesaria para unir el chip con la antena. Y esto ya depende de cada fabricante.
 - Cajas para conexiones electricas. Son necesarias 2: una para la TinyGS y otra para el rotor y asociados.
 - Motor paso a paso. He utilizado uno reciclado de una impresora y que gira directamente el eje del rotor. 
-  Dado que el controlador de motor paso a paso lo tengo configurado a 1600 pasos por vuelta, obtengo una relación de 4.44 pulsos por gradp. 
+  Dado que el controlador de motor paso a paso lo tengo configurado a 1600 pasos por vuelta, obtengo una relación de 4.44 pulsos por grado. 
   Estoy a la espera de recibir un nema17 con un gearbox con una relación 100:1:
   ![image](https://user-images.githubusercontent.com/48222471/117849127-464fe380-b284-11eb-8574-328bca941831.png)
   
@@ -88,9 +88,54 @@ pinMode(D2, INPUT);       //DETECTOR
   Las medidas del acoplador serán acordes al diametro del eje del motor paso y del eje del rotor.
   
   Yo he utilizado un eje de aluminio para el rotor de 10 mm. de diametro que se puede adquirir en  Leroy Merlin, al igual que los herrajes necesarios, las cajas electricas,etc.
-  
+- Una placa de CI para prototipos. En ella instalaré el ESP8266, el convertidor DC/DC y la resistencia para el detector HALL.
+- Tornilleria varia, ademas de brocas, remaches, cables, regletas para conexiones electricas y una fuente de 24 voltios de c.c.
 
+# El programa
 
+Recomiendo disponer de platformio para la carga del programa en el ESP8266. 
+Para instalarlo puedes utilizar cualquiera de los tutoriales existentes en Youtube y que lo hacen francamente bien.
+Estoy modificandolo un poco, ya que yo lo tengo integrado en el control domotico de mi casa y presenta ciertas particularidades.
+Estoy seguro de que quedan bugs por solucionar, pero presenta un comportamiento bastante bueno y a las pruebas me remito:
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+14:03:47 success!
+14:03:47 [SX12x8] Starting to listen to Norbi
+14:03:47 success!
+14:16:08 [SX12x8] RSSI:		-121.500000 dBm
+[SX12x8] SNR:		-8.500000 dB
+[SX12x8] Frequency error:	-8415.871094 Hz
+14:16:08 Packet (143 bytes):
+14:16:08 8effffffff0a0601c9cd2700000000f10f000047cd0b322d2842524b204d57205645523a30325f31320000000000000e0000ec0700000002100000e60a8600f003000082202001609efec6ffd6606f01cb0de60106322d2819001000e8ff38000000000000000904040f0f0f0f0f0f000702bffcb2600875300e0c000c0000
+14:16:08 a5102523f30c060904006010e21f4d15
+14:18:08 [SX12x8] RSSI:		-119.000000 dBm
+[SX12x8] SNR:		-8.000000 dB
+[SX12x8] Frequency error:	-1784.676392 Hz
+14:18:08 Packet (143 bytes):
+14:18:08 8effffffff0a0601c9cd2900000000f10f000049cd83322d2842524b204d57205645523a30325f31320000000000000e0000ec0700000002100000e50a8600f003000082202001609efec6ffd6606f01cb0de6017f322d281500feff18002f000000000000000a04040f0f0f0f0f0f000a03bffcb2600a91300e0c000c0000
+14:18:08 c4233825ed0c070a05006010f91f1572
+14:20:08 [SX12x8] RSSI:		-126.500000 dBm
+[SX12x8] SNR:		-14.500000 dB
+[SX12x8] Frequency error:	6616.514648 Hz
+14:20:08 [SX12x8] CRC error! Data cannot be retrieved
+15:52:17 [SX12x8] RSSI:		-123.000000 dBm
+[SX12x8] SNR:		-10.000000 dB
+[SX12x8] Frequency error:	-3978.297363 Hz
+15:52:17 Packet (143 bytes):
+15:52:17 8effffffff0a0601c9cd8700000000f10f0000a7cd95482d2842524b204d57205645523a30325f31320000000000000e0000ec0700000002110000e60a86001804000082202000609efec6ffd6606f01cb0de60190482d281e00e0ffeaff38000000000000000904040f0f0f0f0f0f000107bffcb260087f300e0c000c0000
+15:52:17 d7f47007df0c060804006010b01fe157
+15:54:18 [SX12x8] RSSI:		-125.000000 dBm
+[SX12x8] SNR:		-11.000000 dB
+[SX12x8] Frequency error:	3542.089844 Hz
+15:54:18 Packet (143 bytes):
+15:54:18 8effffffff0a0601c9cd8900000000f10f0000a9cd0d492d2842524b204d57205645523a30325f31320000000000000e0000ec0700000002140000e30a86001804000082202001609efec6ffd6606f01cb0de60108492d2822000800d8ff33000000000000000904040f0f0f0f0f0f000407bffcb2600a93300e0c000c0000
+15:54:18 e917d223af0d070a05006010f01f0a63
+15:56:18 [SX12x8] RSSI:		-122.000000 dBm
+[SX12x8] SNR:		-10.000000 dB
+[SX12x8] Frequency error:	8042.578125 Hz
+15:56:18 Packet (143 bytes):
+15:56:18 8effffffff0a0601c9cd8b00000000f10f0000abcd85492d2842524b204d57205645523a30325f31320000000000000e0000ec0700000002120000e00a86001804000082202001609efec6ffd6606f01cb0de60180492d281b000700120031000000000000000a04040f0f0f0f0f0f000209bffcb2600aa3300e0c000c0000
+15:56:18 40311e36ee0c070a060060101e202c43
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 Continuará...en breve subiré el programa gestor del rotor, además de las piezas necesarias fabricadas en la impresora 3D.
 
