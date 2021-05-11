@@ -9,7 +9,7 @@ escuchando nuestra TinyGS.
 He procurado "tocar" lo menos posible el soft de la TinyGS para no interferir en su trabajo y que el sistema encargado de rotar sea un ESP8266 que se encargue del trabajo de calcular el azimut y del movimiento del rotor.
 
 # TINYGS HOMEMADE
-![image](https://user-images.githubusercontent.com/48222471/117586079-2bf7f780-b116-11eb-84cd-9ce9a3a5349e.png)
+![image](https://user-images.githubusercontent.com/48222471/117852716-e9eec300-b287-11eb-8d8b-245ba6786273.png)
 
 # ESPECIFICACIONES ROTOR
 Por ahora estoy utilizando un motor paso a paso de una vieja impresora, posteriormente lo cambiare por un motor paso a paso con desmultiplicador
