@@ -162,6 +162,8 @@ Y aunque el sistema lo tengo instalado en un tejado, no tengo visión de 360 gra
 
 
   ![image](https://user-images.githubusercontent.com/48222471/117863090-ae59f600-b293-11eb-95e9-90c4ce90b0e6.png)
+  
+- En el directorio dejo el programa para quien quiera usarlo.
 
   
   
