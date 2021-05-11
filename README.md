@@ -68,6 +68,19 @@ pinMode(D2, INPUT);       //DETECTOR
 [rotor.zip](https://github.com/redmilenium/rotor-antena/files/6460477/rotor.zip)
 
 # Material necesario
+- Una TinyGS. Puedes hacerlo tu mismo o puedes adquirirla en cualquier proveedor oriental...
+  Aunque deberían ser mejor las basadas en el chip SX1268, yo por ahora sigo utilizando la primera TinyGS que construí con un SX1278.
+  La razón, es que tienen mejor sensibilidad, aun en contra de lo que indica el fabricante de los chips: SEMTECH.
+  Quizas esten en lo cierto y el problema resida en la circuiteria adicional necesaria para unir el chip con la antena. Y esto ya depende de cada fabricante.
+- Cajas para conexiones electricas. Son necesarias 2: una para la TinyGS y otra para el rotor y asociados.
+- Motor paso a paso. He utilizado uno reciclado de una impresora y que gira directamente el eje del rotor. 
+  Dado que el controlador de motor paso a paso lo tengo configurado a 1600 pasos por vuelta, obtengo una relación de 4.44 pulsos por gradp. 
+  Estoy a la espera de recibir un nema17 con un gearbox con una relación 100:1:
+  ![image](https://user-images.githubusercontent.com/48222471/117849127-464fe380-b284-11eb-8574-328bca941831.png)
+  Es decir por cada 100 vueltas del motor paso a paso, el rotor dará solo 1. 
+  En este caso configuraré el controlador de motor p.p. a 200 pulsos por vuelta. Esto son 20.000 pulsos de motor pap por vuelta de rotor: 55.55 pulsos por grado.
+-
+
 
 
 
