@@ -148,6 +148,7 @@ Y aunque el sistema esta instalado en un tejado, no tengo 360 grados sin obstacu
 - Yo he utilizado la IP 192.168.1.24 para el rotor.  Si necesitas cambiarla, debes tener en cuenta que hay que hacerlo en varios puntos de programa.
   Nada que alguien como tu no pueda hacer!!!
   Verifica que la IP a utilizar ( en mi caso 192.168.1.24) este fuera del rango de IP´s que el DHCP de tu router este asignando, para evitar conflictos...
+  Al acceder a la web (192.168.1.24 en mi caso) te solicita usuario y password:  admin  y abracadabra. Estan en el programa y si no te gustan tambien puedes cambiarlos.
+  
 
-Continuará...en breve subiré el programa gestor del rotor.
 
