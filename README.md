@@ -73,9 +73,6 @@ pinMode(D2, INPUT);       //DETECTOR
 
 # Material necesario
 - Una TinyGS. Puedes hacerlo tu mismo o puedes adquirirla hecha.
-  Aunque deberían ser mejor las basadas en el chip SX1268, yo por ahora sigo utilizando la primera TinyGS que construí con un SX1278.
-  La razón, es que tienen mejor sensibilidad, aun en contra de lo que indica el fabricante de los chips: SEMTECH.
-  Quizas esten en lo cierto y el problema resida en la circuiteria adicional necesaria para unir el chip con la antena. Y esto ya depende de cada fabricante.
 - Cajas para conexiones electricas. Son necesarias 2: una para la TinyGS y otra para el rotor y asociados.
 - Motor paso a paso. He utilizado uno reciclado de una impresora y que gira directamente el eje del rotor. 
   Dado que el controlador de motor paso a paso lo tengo configurado a 1600 pasos por vuelta, obtengo una relación de 4.44 pulsos por grado. 
