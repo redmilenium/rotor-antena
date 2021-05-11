@@ -149,6 +149,9 @@ Y aunque el sistema esta instalado en un tejado, no tengo 360 grados sin obstacu
   Nada que alguien como tu no pueda hacer!!!
   Verifica que la IP a utilizar ( en mi caso 192.168.1.24) este fuera del rango de IP´s que el DHCP de tu router este asignando, para evitar conflictos...
   Al acceder a la web (192.168.1.24 en mi caso) te solicita usuario y password:  admin  y abracadabra. Estan en el programa y si no te gustan tambien puedes cambiarlos.
+- Por ahora solo he incluido 4 satelites: Norbi, SDSat, FEES y Sri Shakthi Sat. 
+  Yo solo he llegado a recibir datos de los 3 primeros y conociendo el número NORAD es muy facil incluir cualquier otro: http://www.celestrak.com/satcat/tle.php?CATNR=46494
+  
   
 
 
