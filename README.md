@@ -89,7 +89,7 @@ pinMode(D2, INPUT);       //DETECTOR
 
   ![image](https://user-images.githubusercontent.com/48222471/117849594-c0806800-b284-11eb-8fcb-0d31d48d27bb.png)
   
-  Las medidas del acoplador serán acordes al diametro del eje del motor paso y del eje del rotor.
+  Las medidas del acoplador serán acordes al diametro del eje del motor paso a paso y del eje del rotor.
   
   Yo he utilizado un eje de aluminio para el rotor de 10 mm. de diametro que se puede adquirir en  Leroy Merlin, al igual que los herrajes necesarios, las cajas electricas,etc.
 - Una placa de CI para prototipos. En ella instalaré el ESP8266, el convertidor DC/DC y la resistencia para el detector HALL.
@@ -102,9 +102,9 @@ Para instalarlo puedes utilizar cualquiera de los tutoriales existentes en Youtu
 
 Respecto al programa, estoy modificandolo un poco, ya que yo lo tengo integrado en el control domotico de mi casa y presenta ciertas particularidades.
 
-Estoy seguro de que quedan bugs por solucionar, pero presenta un comportamiento bastante bueno.
+Estoy seguro de que quedan bugs por solucionar, pero presenta un comportamiento bastante aceptable.
 
-Y aunque el sistema esta instalado en un tejado, no tengo visión de 360 grados sin obstaculos y aun asi y en la parte "mala" obtengo buenos resultados:
+Y aunque el sistema lo tengo instalado en un tejado, no tengo visión de 360 grados sin obstaculos y aun asi y en la parte "mala" obtengo buenos resultados:
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 - 14:03:47 success!
 - 14:03:47 [SX12x8] Starting to listen to Norbi
@@ -158,8 +158,9 @@ Y aunque el sistema esta instalado en un tejado, no tengo visión de 360 grados 
 - Por ahora solo he incluido 4 satelites: Norbi, SDSat, FEES y Sri Shakthi Sat. 
   Yo solo he llegado a recibir datos de los 3 primeros y conociendo el número NORAD es muy facil incluir cualquier otro: http://www.celestrak.com/satcat/tle.php?CATNR=46494
   Este, por ejemplo, nos permite conseguir los TLE's actualizado de Norbi
-- Dado que despues de su instalación en un tejado, por ejemplo, no tendras facil acceso al ESP8266, tambien esta activa la posibilidad de enviar via OTA nuevas versiones del software.
-  
+- Dado que despues de su instalación en un tejado, por ejemplo, no tendras facil acceso al ESP8266, tambien esta activa la posibilidad de enviar via OTA nuevas versiones del software. Para ello deberás editar el archivo platformio.ini, comentar la linea de COMX y descomentar las referentes a OTA:
+  ![image](https://user-images.githubusercontent.com/48222471/117863090-ae59f600-b293-11eb-95e9-90c4ce90b0e6.png)
+
   
   
 
