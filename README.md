@@ -64,6 +64,14 @@ pinMode(D2, INPUT);       //DETECTOR
 
 ![image](https://user-images.githubusercontent.com/48222471/117826333-5eb60300-b270-11eb-928d-8bab5ac784fd.png)
 
+# Archivos 3D
+[rotor.zip](https://github.com/redmilenium/rotor-antena/files/6460477/rotor.zip)
+
+# Material necesario
+
+
+
+
 
 Continuará...en breve subiré el programa gestor del rotor, además de las piezas necesarias fabricadas en la impresora 3D.
 
