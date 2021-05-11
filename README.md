@@ -85,10 +85,10 @@ pinMode(D2, INPUT);       //DETECTOR
 
   ![image](https://user-images.githubusercontent.com/48222471/117849594-c0806800-b284-11eb-8fcb-0d31d48d27bb.png)
   
-  Yo he utilizado un eje de aluminio para el rotor de 10 mm. de diametro que se puede adquirir en un Leroy Merlin, al igual que los herrajes necesarios, las cajas electricas, los tubo, y gran parte del material necesario.
-
-
-
+  Las medidas del acoplador serán acordes al diametro del eje del motor paso y del eje del rotor.
+  
+  Yo he utilizado un eje de aluminio para el rotor de 10 mm. de diametro que se puede adquirir en  Leroy Merlin, al igual que los herrajes necesarios, las cajas electricas,etc.
+  
 
 
 
