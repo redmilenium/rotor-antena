@@ -69,7 +69,7 @@ pinMode(D2, INPUT);       //DETECTOR
 ![image](https://user-images.githubusercontent.com/48222471/117826333-5eb60300-b270-11eb-928d-8bab5ac784fd.png)
 
 # Archivos 3D
-[rotor.zip](https://github.com/redmilenium/rotor-antena/files/6460477/rotor.zip)
+[rotor3D_printer.zip](https://github.com/redmilenium/rotor-antena/files/6461855/rotor3D_printer.zip)
 
 # Material necesario
 - Una TinyGS. Puedes hacerlo tu mismo o puedes adquirirla hecha.
