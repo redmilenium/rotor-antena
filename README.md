@@ -1,4 +1,4 @@
-# rotor-antena
+# Rotor antena
 simple rotor de antena para TinyGS (tinygs.com)
 
 # Introducción
