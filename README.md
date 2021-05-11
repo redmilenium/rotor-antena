@@ -81,7 +81,11 @@ pinMode(D2, INPUT);       //DETECTOR
   Es decir por cada 100 vueltas del motor paso a paso, el rotor dará solo 1. 
   En este caso configuraré el controlador de motor p.p. a 200 pulsos por vuelta. 
   Esto son 20.000 pulsos de motor pap por vuelta de rotor: 55.55 pulsos por grado.
--
+- Un acoplador que una el motor paso a paso con el eje del rotor:
+
+  ![image](https://user-images.githubusercontent.com/48222471/117849594-c0806800-b284-11eb-8fcb-0d31d48d27bb.png)
+  
+  Yo he utilizado un eje de aluminio para el rotor de 10 mm. de diametro que se puede adquirir en un Leroy Merlin, al igual que los herrajes necesarios, las cajas electricas, los tubo, y gran parte del material necesario.
 
 
 
