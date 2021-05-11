@@ -141,6 +141,13 @@ Y aunque el sistema esta instalado en un tejado, no tengo 360 grados sin obstacu
 - 15:56:18 8effffffff0a0601c9cd8b00000000f10f0000abcd85492d2842524b204d57205645523a30325f31320000000000000e0000ec0700000002120000e00a86001804000082202001609efec6ffd6606f01cb0de60180492d281b000700120031000000000000000a04040f0f0f0f0f0f000209bffcb2600aa3300e0c000c0000
 - 15:56:18 40311e36ee0c070a060060101e202c43
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+# El programa
+- Recomiendo utilizar platformio para su carga. Por un lado hay que cargar el software y por otro la imagen que se ve de fondo en la página web que sirve.
+- Debes configurar en el programa tu SSID y tu password. Tienes la posibilidad de incluir 2 AP´s.
+- Tambien debes poner la latitud, longitud y altura de donde se va a situar el rotor.
+- Yo he utilizado la IP 192.168.1.24 para el rotor.  Si necesitas cambiarla, debes tener en cuenta que hay que hacerlo en varios puntos de programa.
+  Nada que alguien como tu no pueda hacer!!!
+  Verifica que la IP a utilizar ( en mi caso 192.168.1.24) este fuera del rango de IP´s que el DHCP de tu router este asignando, para evitar conflictos...
 
 Continuará...en breve subiré el programa gestor del rotor.
 
