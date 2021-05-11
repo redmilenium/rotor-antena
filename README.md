@@ -98,22 +98,22 @@ Para instalarlo puedes utilizar cualquiera de los tutoriales existentes en Youtu
 Estoy modificandolo un poco, ya que yo lo tengo integrado en el control domotico de mi casa y presenta ciertas particularidades.
 Estoy seguro de que quedan bugs por solucionar, pero presenta un comportamiento bastante bueno y a las pruebas me remito:
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-14:03:47 success!
-14:03:47 [SX12x8] Starting to listen to Norbi
-14:03:47 success!
-14:16:08 [SX12x8] RSSI:		-121.500000 dBm
-[SX12x8] SNR:		-8.500000 dB
-[SX12x8] Frequency error:	-8415.871094 Hz
-14:16:08 Packet (143 bytes):
-14:16:08 8effffffff0a0601c9cd2700000000f10f000047cd0b322d2842524b204d57205645523a30325f31320000000000000e0000ec0700000002100000e60a8600f003000082202001609efec6ffd6606f01cb0de60106322d2819001000e8ff38000000000000000904040f0f0f0f0f0f000702bffcb2600875300e0c000c0000
-14:16:08 a5102523f30c060904006010e21f4d15
-14:18:08 [SX12x8] RSSI:		-119.000000 dBm
-[SX12x8] SNR:		-8.000000 dB
-[SX12x8] Frequency error:	-1784.676392 Hz
-14:18:08 Packet (143 bytes):
-14:18:08 8effffffff0a0601c9cd2900000000f10f000049cd83322d2842524b204d57205645523a30325f31320000000000000e0000ec0700000002100000e50a8600f003000082202001609efec6ffd6606f01cb0de6017f322d281500feff18002f000000000000000a04040f0f0f0f0f0f000a03bffcb2600a91300e0c000c0000
-14:18:08 c4233825ed0c070a05006010f91f1572
-14:20:08 [SX12x8] RSSI:		-126.500000 dBm
+- 14:03:47 success!
+- 14:03:47 [SX12x8] Starting to listen to Norbi
+- 14:03:47 success!
+- 14:16:08 [SX12x8] RSSI:		-121.500000 dBm
+- [SX12x8] SNR:		-8.500000 dB
+- [SX12x8] Frequency error:	-8415.871094 Hz
+- 14:16:08 Packet (143 bytes):
+- 14:16:08 - 8effffffff0a0601c9cd2700000000f10f000047cd0b322d2842524b204d57205645523a30325f31320000000000000e0000ec0700000002100000e60a8600f003000082202001609efec6ffd6606f01cb0de60106322d2819001000e8ff38000000000000000904040f0f0f0f0f0f000702bffcb2600875300e0c000c0000
+- 14:16:08 a5102523f30c060904006010e21f4d15
+- 14:18:08 [SX12x8] RSSI:		-119.000000 dBm
+- [SX12x8] SNR:		-8.000000 dB
+- [SX12x8] Frequency error:	-1784.676392 Hz
+- 14:18:08 Packet (143 bytes):
+- 14:18:08 8effffffff0a0601c9cd2900000000f10f000049cd83322d2842524b204d57205645523a30325f31320000000000000e0000ec0700000002100000e50a8600f003000082202001609efec6ffd6606f01cb0de6017f322d281500feff18002f000000000000000a04040f0f0f0f0f0f000a03bffcb2600a91300e0c000c0000
+- 14:18:08 c4233825ed0c070a05006010f91f1572
+- 14:20:08 [SX12x8] RSSI:		-126.500000 dBm
 [SX12x8] SNR:		-14.500000 dB
 [SX12x8] Frequency error:	6616.514648 Hz
 14:20:08 [SX12x8] CRC error! Data cannot be retrieved
@@ -137,5 +137,5 @@ Estoy seguro de que quedan bugs por solucionar, pero presenta un comportamiento 
 15:56:18 40311e36ee0c070a060060101e202c43
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-Continuará...en breve subiré el programa gestor del rotor, además de las piezas necesarias fabricadas en la impresora 3D.
+Continuará...en breve subiré el programa gestor del rotor.
 
