@@ -53,7 +53,8 @@ Se envia el nombre del satelite escuchado una vez por minuto.
 
 
 # Esquema
-![image](https://user-images.githubusercontent.com/48222471/117826101-2f06fb00-b270-11eb-9733-7e45480f9790.png)
+![image](https://user-images.githubusercontent.com/48222471/117826333-5eb60300-b270-11eb-928d-8bab5ac784fd.png)
 
-Continuará...en breve subiré el programa gestor del roto, además de las piezas necesarias fabricadas en la impresora 3D.
+
+Continuará...en breve subiré el programa gestor del rotor, además de las piezas necesarias fabricadas en la impresora 3D.
 
