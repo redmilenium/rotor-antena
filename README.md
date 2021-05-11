@@ -95,13 +95,16 @@ pinMode(D2, INPUT);       //DETECTOR
 - Una placa de CI para prototipos. En ella instalaré el ESP8266, el convertidor DC/DC y la resistencia para el detector HALL.
 - Tornilleria varia, ademas de brocas, remaches, cables, regletas para conexiones electricas y una fuente de 24 voltios de c.c.
 
-# El programa
+# Platformio
 
 Recomiendo disponer de platformio para la carga del programa en el ESP8266. 
 Para instalarlo puedes utilizar cualquiera de los tutoriales existentes en Youtube y que lo hacen francamente bien.
-Estoy modificandolo un poco, ya que yo lo tengo integrado en el control domotico de mi casa y presenta ciertas particularidades.
+
+Respecto al programa, estoy modificandolo un poco, ya que yo lo tengo integrado en el control domotico de mi casa y presenta ciertas particularidades.
+
 Estoy seguro de que quedan bugs por solucionar, pero presenta un comportamiento bastante bueno.
-Y aunque el sistema esta instalado en un tejado, no tengo 360 grados sin obstaculos y aun asi y en la parte "mala" obtengo buenos resultados:
+
+Y aunque el sistema esta instalado en un tejado, no tengo visión de 360 grados sin obstaculos y aun asi y en la parte "mala" obtengo buenos resultados:
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 - 14:03:47 success!
 - 14:03:47 [SX12x8] Starting to listen to Norbi
@@ -141,16 +144,22 @@ Y aunque el sistema esta instalado en un tejado, no tengo 360 grados sin obstacu
 - 15:56:18 8effffffff0a0601c9cd8b00000000f10f0000abcd85492d2842524b204d57205645523a30325f31320000000000000e0000ec0700000002120000e00a86001804000082202001609efec6ffd6606f01cb0de60180492d281b000700120031000000000000000a04040f0f0f0f0f0f000209bffcb2600aa3300e0c000c0000
 - 15:56:18 40311e36ee0c070a060060101e202c43
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-# El programa
-- Recomiendo utilizar platformio para su carga. Por un lado hay que cargar el software y por otro la imagen que se ve de fondo en la página web que sirve.
+
+# Configurando el programa
+- Repito: recomiendo utilizar platformio para su carga.
+  Por un lado hay que cargar el software y por otro la imagen que se ve de fondo en la página web que sirve. Todo esto se hace desde platformio
 - Debes configurar en el programa tu SSID y tu password. Tienes la posibilidad de incluir 2 AP´s.
 - Tambien debes poner la latitud, longitud y altura de donde se va a situar el rotor.
 - Yo he utilizado la IP 192.168.1.24 para el rotor.  Si necesitas cambiarla, debes tener en cuenta que hay que hacerlo en varios puntos de programa.
   Nada que alguien como tu no pueda hacer!!!
   Verifica que la IP a utilizar ( en mi caso 192.168.1.24) este fuera del rango de IP´s que el DHCP de tu router este asignando, para evitar conflictos...
   Al acceder a la web (192.168.1.24 en mi caso) te solicita usuario y password:  admin  y abracadabra. Estan en el programa y si no te gustan tambien puedes cambiarlos.
+- Tanto la TinyGS como el ESP8266 del rotor, deben estar en la misma red... 192.168.1.xx en mi caso
 - Por ahora solo he incluido 4 satelites: Norbi, SDSat, FEES y Sri Shakthi Sat. 
   Yo solo he llegado a recibir datos de los 3 primeros y conociendo el número NORAD es muy facil incluir cualquier otro: http://www.celestrak.com/satcat/tle.php?CATNR=46494
+  Este, por ejemplo, nos permite conseguir los TLE's actualizado de Norbi
+- Dado que despues de su instalación en un tejado, por ejemplo, no tendras facil acceso al ESP8266, tambien esta activa la posibilidad de enviar via OTA nuevas versiones del software.
+  
   
   
 
