@@ -162,7 +162,10 @@ Y aunque el sistema lo tengo instalado en un tejado, no tengo visión de 360 gra
   
 - En el directorio dejo el programa para quien quiera usarlo: rotor.zip (descomprimirlo y desde platformio: open folder y grabar en el ESP8266).
 
-  
+  11/06/2021: ya esta instalado el nuevo motor paso a paso con desmultiplicación 100:1
+    
+  ![100_1mpp](https://user-images.githubusercontent.com/48222471/121726311-a9829f00-caea-11eb-91a2-904d47806913.jpeg)
+
   
 
 
