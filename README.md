@@ -167,7 +167,10 @@ Y aunque el sistema lo tengo instalado en un tejado, no tengo visión de 360 gra
 ![100_1](https://user-images.githubusercontent.com/48222471/122085710-4606b300-ce03-11eb-9a80-0f9f67350f73.jpeg)
 
   Ya esta operativo, pero todavía en pruebas. 
+  
   Ahora puede mover antenas de mayor peso y con un movimiento mas suave. 
+  
   Por ahora, los saltos son de 1 grado...
+  
 
 
