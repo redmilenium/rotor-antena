@@ -164,7 +164,7 @@ Y aunque el sistema lo tengo instalado en un tejado, no tengo visión de 360 gra
 
   11/06/2021: ya esta instalado el nuevo motor paso a paso con desmultiplicación 100:1
     
-  ![100_1mpp](https://user-images.githubusercontent.com/48222471/121726311-a9829f00-caea-11eb-91a2-904d47806913.jpeg)
+![100_1](https://user-images.githubusercontent.com/48222471/122085710-4606b300-ce03-11eb-9a80-0f9f67350f73.jpeg)
 
   Ya esta operativo, pero todavía en pruebas. 
   Ahora puede mover antenas de mayor peso y con un movimiento mas suave. 
