@@ -109,31 +109,29 @@ LDF Modes: Finder ~ chain, Compatibility ~ soft
 Found 39 compatible libraries
 Scanning dependencies...
 Dependency Graph
-|-- <NTPClient> 3.1.0
-|-- <Time> 1.6.0
-|-- <Timezone> 1.2.4
-|   |-- <Time> 1.6.0
-|-- <CTBot> 2.1.4
-|   |-- <ArduinoJson> 6.16.1
-|   |-- <ESP8266WiFi> 1.0
-|-- <ESPAsyncTCP-esphome> 1.2.3
-|   |-- <ESP8266WiFi> 1.0
-|-- <ESPAsyncWebServer-esphome> 1.2.7
-|   |-- <ESPAsyncTCP-esphome> 1.2.3
-|   |   |-- <ESP8266WiFi> 1.0
-|   |-- <Hash> 1.0
-|   |-- <Time> 1.6.0
-|   |-- <ESP8266WiFi> 1.0
-|   |-- <ArduinoJson> 6.16.1
-|-- <Sgp4> 1.0.0
-|-- <AccelStepper> 1.61.0
-|-- <ArduinoOTA> 1.0
-|   |-- <ESP8266WiFi> 1.0
-|   |-- <ESP8266mDNS> 1.2
-|   |   |-- <ESP8266WiFi> 1.0
-|-- <EEPROM> 1.0
-|-- <ESP8266WiFi> 1.0
-|-- <LittleFS(esp8266)> 0.1.0
+-- <NTPClient> 3.1.0
+-- <Time> 1.6.0
+-- <Timezone> 1.2.4
+   -- <Time> 1.6.0
+   -- <ESP8266WiFi> 1.0
+-- <ESPAsyncTCP-esphome> 1.2.3
+   -- <ESP8266WiFi> 1.0
+-- <ESPAsyncWebServer-esphome> 1.2.7
+   -- <ESPAsyncTCP-esphome> 1.2.3
+     -- <ESP8266WiFi> 1.0
+   -- <Hash> 1.0
+   -- <Time> 1.6.0
+   -- <ESP8266WiFi> 1.0
+   -- <ArduinoJson> 6.16.1
+ -- <Sgp4> 1.0.0
+ -- <AccelStepper> 1.61.0
+ -- <ArduinoOTA> 1.0
+ -- <ESP8266WiFi> 1.0
+    -- <ESP8266mDNS> 1.2
+    -- <ESP8266WiFi> 1.0
+-- <EEPROM> 1.0
+-- <ESP8266WiFi> 1.0
+-- <LittleFS(esp8266)> 0.1.0
 Building in release mode
 
 Respecto al programa, estoy modificandolo un poco, ya que yo lo tengo integrado en el control domotico de mi casa y presenta ciertas particularidades.
