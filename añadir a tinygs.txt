@@ -1,0 +1,41 @@
+añadir en la zona de los include:
+
+
+//********************************************************************************
+WiFiClient client;
+unsigned long refresco=millis();
+String satactual = "";
+
+//********************************************************************************
+
+
+
+Añadir en el loop:
+
+//********************************************************************************
+if (millis()-refresco >= 20000)
+  {
+    refresco=millis();
+    if (satactual!=(status.modeminfo.satellite) )
+    {
+      client.connect("192.168.1.24", 80); // conecto con el esp8266 encargado de mover el rotor
+     
+   if (client.connected()) // si conecto, le paso el nombre del satelite a seguir
+       {
+         Serial.println("www conectado");
+         client.println("GET /sat?sat="+String(status.modeminfo.satellite)+" HTTP/1.1");
+         client.println();
+         satactual=(status.modeminfo.satellite);
+       } 
+      else 
+       {
+      Serial.println("conexión fallida");
+       }
+        client.stop();
+    }
+ 
+  }
+
+
+//********************************************************************************
+
