@@ -184,8 +184,13 @@ Y aunque el sistema lo tengo instalado en un tejado, no tengo visión de 360 gra
  - Se limpia, fija y da esplendor al soft. Ahora los saltos son de centesimas de grado. Recuerda orientar correctamente a 0 grados la antena.
  - He cambiado el sensor de cero: antes era un detector de efecto Hall y ahora es un SW que tiene un funcionamiento mucho mas adecuado.
  - En breve subiré fotos.
-  
+
+- 26/04/2022 Lo prometido es deuda:  
   
 ![mpp sw1](https://user-images.githubusercontent.com/48222471/165341632-bf61b2e4-3fcc-4b06-80e6-baefd147bd20.jpeg)
+
+
+
+  
 
 
