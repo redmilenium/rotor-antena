@@ -186,5 +186,6 @@ Y aunque el sistema lo tengo instalado en un tejado, no tengo visión de 360 gra
  - En breve subiré fotos.
   
   
+![mpp sw1](https://user-images.githubusercontent.com/48222471/165341632-bf61b2e4-3fcc-4b06-80e6-baefd147bd20.jpeg)
 
 
