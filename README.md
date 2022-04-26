@@ -189,6 +189,10 @@ Y aunque el sistema lo tengo instalado en un tejado, no tengo visión de 360 gra
   
 ![mpp sw1](https://user-images.githubusercontent.com/48222471/165341632-bf61b2e4-3fcc-4b06-80e6-baefd147bd20.jpeg)
 
+Practicamente lleva un año instalado en el tejado y ya ha soportado lluvia, muchaaaaa lluvia, nieve, niebla, sol, mucho sol y las soluciones de estanqueidad estan funcionando perfectamente.
+
+
+
 
 
   
